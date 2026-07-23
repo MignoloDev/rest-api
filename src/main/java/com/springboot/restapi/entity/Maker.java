@@ -3,6 +3,8 @@ package com.springboot.restapi.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -18,5 +20,4 @@ public class Maker {
 
     @Column(nullable = false)
     private String name;
-
 }
