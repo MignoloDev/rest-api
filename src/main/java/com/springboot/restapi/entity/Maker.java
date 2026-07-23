@@ -18,4 +18,9 @@ public class Maker {
 
     @Column(nullable = false)
     private String name;
+
+
+    Maker maker = new Maker();
+
+
 }
